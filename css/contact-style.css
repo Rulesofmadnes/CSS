@@ -1,0 +1,60 @@
+/* contact-style.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Контактная информация */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Навигационные ссылки */
+.navigation-links {
+    text-align: center;
+}
+
+.navigation-links a {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFD700; /* Золотой цвет кнопки */
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation-links a:hover {
+    background-color: #FF4500; /* Оранжевый цвет кнопки при наведении */
+}
+
+/* Фоновое изображение */
+.bottom-image {
+    position: fixed;
+    bottom: -20px; /* Смещаем изображение немного ниже */
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
