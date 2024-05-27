@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 36px;
+    text-align: center; /* Выравниваем заголовок по центру */
+}
+
+h2 {
+    font-size: 24px;
+    color: #FFD700; /* Золотой цвет */
+}
+
+/* Картинка */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ссылки */
+a {
+    color: #FFD700; /* Золотой цвет */
+}
+
+a:hover {
+    color: #FF4500; /* Оранжевый цвет при наведении */
+}

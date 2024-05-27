@@ -1,0 +1,56 @@
+/* gallery-style.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Галерея */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #FFD700; /* Золотой цвет рамки */
+}
+
+/* Навигационные ссылки */
+.navigation-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation-links a {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFD700; /* Золотой цвет кнопки */
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation-links a:hover {
+    background-color: #FF4500; /* Оранжевый цвет кнопки при наведении */
+}
